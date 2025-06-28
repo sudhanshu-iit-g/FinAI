@@ -2,6 +2,9 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <Button>First Project For Resume</Button>
+    <div className="flex items-center justify-center min-h-screen bg-gray-50 mt - 40">
+    <Button>First Project</Button>
+    </div>
+
   );
 }
